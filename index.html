@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Measuring HIV Stigma and Discrimination among Health Facility Staff</title>
+  <style>
+    body {
+      background-color: #fff;
+      color: #000;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 24px;
+      margin-bottom: 40px; /* Increased margin for more space */
+    }
+    p {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    .survey {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+    .btn-yes,
+    .btn-no {
+      padding: 10px 20px; /* Doubled the button size */
+      font-size: 16px;
+    }
+    .logos {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px; /* Added margin to create space below logos */
+    }
+    .logos img {
+      height: 80px; /* Increased logo size */
+      margin-right: 10px; /* Added margin between logos */
+    }
+  </style>
+  <script>
+    function redirectToSurvey() {
+      window.location.href = "index.html"; // Updated link to index.html
+    }
+    
+    function redirectToExit() {
+      window.location.href = "exit.html";
+    }
+  </script>
+</head>
+<body>
+  <div class="logos">
+    <img src="ecdc_logo.png" alt="ECDC Logo">
+    <img src="eacs_logo.png" alt="EACS Logo">
+  </div>
+  <h1>Measuring HIV Stigma and Discrimination among Health Facility Staff: Brief Questionnaire</h1>
+  <p>Welcome to the Survey Measuring HIV Stigma and Discrimination among Health Facility Staff.</p>
+  <p>The European Centre for Disease Prevention and Control (ECDC) and the European AIDS Clinical Society (EACS) are working to understand the experience of HIV-related stigma in healthcare settings.</p>
+  <p>If you are working in the healthcare sector, you are invited to take this survey. You should also be aged more than 18 years old.</p>
+  <p>Your responses will help us identify the needs and priorities of both healthcare workers and people living with HIV so that we can reduce HIV-related stigma and discrimination in healthcare settings in Europe and Central Asia.</p>
+  <p>The survey is anonymous and confidential, and no information will be collected, stored, or transferred that allows for the identification of participants (as defined within the EU General Data Protection Regulation). IP addresses will also not be recorded. This means you must complete the survey in one session and cannot return later.</p>
+  <p>The anonymous data will be hosted by ECDC (the data custodian) and processed in accordance with the EU General Data Protection Regulation. The anonymous data will be shared with ECDC academic and community partners in accordance with the EU General Data Protection Regulation.</p>
+  <p>The survey takes approximately 10 minutes to complete.</p>
+  <p>You are free to withdraw from the survey anytime. You do not have to answer any questions if you do not want to. If you have any concerns about this study, you can contact Teymur.Noori@ecdc.europa.eu, ecdc.info@ecdc.europa.eu, and info@eacsociety.org.</p>
+  <div class="survey">
+    <p>If you wish to take this survey, please indicate your consent to participate below.</p>
+    <p>Do you accept to participate in this survey?</p>
+    <form>
+      <button type="button" class="btn-yes" onclick="redirectToSurvey()">Yes</button>
+      <button type="button" class="btn-no" onclick="redirectToExit()">No</button>
+    </form>
+  </div>
+</body>
+</html>

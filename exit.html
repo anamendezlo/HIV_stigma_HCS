@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exit Page</title>
+  <style>
+    body {
+      background-color: #fff;
+      color: #000;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 24px;
+    }
+    .link {
+      margin-top: 20px;
+    }
+  </style>
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+</head>
+<body>
+  <h1>Sorry to see you go</h1>
+  <p>If you have made a mistake and want to take the survey, click the button below:</p>
+  <div class="link">
+    <button onclick="goBack()">Click here</button>
+  </div>
+</body>
+</html>
