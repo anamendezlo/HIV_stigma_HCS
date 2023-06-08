@@ -22,10 +22,16 @@
       margin-top: 20px;
       font-weight: bold;
     }
-    .btn-yes,
+    .btn-yes {
+      padding: 10px 20px; /* Doubled the button size */
+      font-size: 16px;
+      background-color: green; /* Set button background color to green */
+      color: #fff; /* Set button text color to white */
+    }
     .btn-no {
       padding: 10px 20px; /* Doubled the button size */
       font-size: 16px;
+      background-color: lightcoral; /* Set button background color to light red */
     }
     .logos {
       display: flex;
@@ -39,7 +45,7 @@
   </style>
   <script>
     function redirectToSurvey() {
-      window.location.href = "index.html"; // Updated link to index.html
+      window.location.href = "https://ec.europa.eu/eusurvey/runner/HIV_HCW_stigma";
     }
     
     function redirectToExit() {
